@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const Tabs = (topics) => {
   // TASK 3
   // ---------------------
@@ -24,7 +26,7 @@ const Tabs = (topics) => {
   return divElem;
 
 }
-import axios from 'axios';
+
 const tabsAppender = (selector) => {
   // TASK 4
   // ---------------------

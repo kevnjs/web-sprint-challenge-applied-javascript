@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const Card = (article) => {
   // TASK 5
   // ---------------------
@@ -43,7 +45,7 @@ const Card = (article) => {
   return card;
 
 }
-import axios from 'axios';
+
 const cardAppender = (selector) => {
   // TASK 6
   // ---------------------
